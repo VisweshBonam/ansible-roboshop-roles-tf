@@ -1,0 +1,7 @@
+- name: configure catalogue component
+  # hosts: catalogue
+  hosts: localhost
+  connection: local
+  become: yes
+  roles:
+  - catalogue

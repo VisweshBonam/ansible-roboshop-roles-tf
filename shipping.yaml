@@ -1,0 +1,5 @@
+- name: configure shipping component
+  hosts: shipping
+  become: yes
+  roles:
+  - shipping

@@ -1,0 +1,7 @@
+- name: configure rabbitmqserver
+  # hosts: rabbitmq
+  hosts: localhost
+  connection : local
+  become: yes
+  roles:
+  - rabbitmq

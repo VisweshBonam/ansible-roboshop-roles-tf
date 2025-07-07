@@ -1,5 +1,5 @@
 CATALOGUE_HOST: catalogue.backend-{{ env }}.liveyourlife.site
-USER_HOST: user.liveyourlife.site
-CART_HOST: cart.liveyourlife.site
-SHIPPING_HOST: shipping.liveyourlife.site
-PAYMENT_HOST: payment.liveyourlife.site
+USER_HOST: user.backend-{{ env }}.liveyourlife.site
+CART_HOST: cart.backend-{{ env }}.liveyourlife.site
+SHIPPING_HOST: shipping.backend-{{ env }}.liveyourlife.site
+PAYMENT_HOST: payment.backend-{{ env }}.liveyourlife.site

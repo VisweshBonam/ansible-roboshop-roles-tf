@@ -1,2 +1,2 @@
-REDIS_HOST: redis.liveyourlife.site
-MONGODB_HOST: mongodb.liveyourlife.site
+REDIS_HOST: redis-{{ env }}.liveyourlife.site
+MONGODB_HOST: mongodb-{{ env }}.liveyourlife.site

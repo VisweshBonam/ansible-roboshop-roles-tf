@@ -1,5 +1,7 @@
 - name: configure shipping component
-  hosts: shipping
+  # hosts: shipping
+  hosts: localhost
+  connection: local
   become: yes
   roles:
   - shipping

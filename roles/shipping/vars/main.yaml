@@ -1,2 +1,2 @@
-CART_HOST: cart.liveyourlife.site
-MYSQL_HOST: mysql.liveyourlife.site
+CART_HOST: cart.backend-dev.liveyourlife.site
+MYSQL_HOST: mysql-dev.liveyourlife.site

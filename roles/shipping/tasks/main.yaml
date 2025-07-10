@@ -6,7 +6,7 @@
 - name: maven setup
   include_role:
     name: common
-    tasks_from: maven
+    tasks_from: maven-setup
 
 - name: importing data
   community.mysql.mysql_db:
